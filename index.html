@@ -1,0 +1,27 @@
+---
+layout: default
+title: Testpoint.io - Free restful test end-points for integrated b2b communities
+classwWapper: home
+---
+<section class="diagram">
+    <h1>Free restful test end-points for integrated b2b communities</h1>
+    <p>Unlike single provider RESTful services(e.g. Google or Facebook APIs), a B2B process like e-invoicing needs multiple providers to support the same standard interface. Testpoint.io supports the community by providing teset services for implementers of standard API specifications</p>
+</section>
+<section id="tabs">
+
+    <div class="tabs editable">
+        <ul class="tabs-header">
+            {% for tab in site.tabs %}
+            <li><a href="#home-{{ tab.id | slugify: 'pretty' }}">{{ tab.title }}</a></li>
+            {% endfor %}
+        </ul>
+        <div class="tabs-container">
+            {% for tab in site.tabs %}
+            <div id="home-{{ tab.id  | slugify: 'pretty' }}" class="tabs-content">
+                {{ tab.content }}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+</section>

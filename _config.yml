@@ -1,0 +1,14 @@
+title: Testpoint.io
+email: help@testpoint.io
+description: > # this means to ignore newlines until "baseurl:"
+  Free restful test end-points for integrated b2b communities
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://testpoint.io" # the base hostname & protocol for your site
+
+collections:
+  tabs:
+    output: true
+
+# Build settings
+markdown: kramdown
+theme: minima

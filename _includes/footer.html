@@ -1,0 +1,31 @@
+<footer class="footer">
+    <div class="wrapper">
+        <a href="#">
+            <img src="/images/logo.png" alt="">
+            Testpoint.io
+        </a>
+        <ul class="footer-menu">
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Rate Us</a></li>
+            <li><a href="#">Terms &amp; Conditions</a></li>
+            <li><a href="#">Security &amp; Privacy</a></li>
+        </ul>
+        <p>Copyright &copy; 2016. All rights reserved</p>
+        <a href="#">Twitter</a>
+    </div>
+
+</footer>
+<script src="/js/jquery-1.12.0.min.js"></script>
+<script src="/js/jquery.responsiveTabs.min.js"></script>
+<script>
+    jQuery(document).ready(function ($) {
+        $('.tabs').responsiveTabs({
+            collapsible: 'false',
+            active: 1,
+            startCollapsed: false,
+            scrollToAccordion: true,
+            setHash: true,
+            scrollToAccordionOffset: 500
+        });
+    });
+</script>
