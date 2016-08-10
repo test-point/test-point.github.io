@@ -6,26 +6,3 @@
 @import "common";
 @import "header";
 @import "footer";
-
-
-.btn{
-    display: inline-block;
-    background-color: #0de183;
-    color: #fff;
-    font-size: 19px;
-    padding: 11px 20px;
-    border-radius: 23px;
-    text-decoration: none;
-    box-shadow: 0 0 5px rgba(0,0,0,.14);
-}
-
-.btn:hover{
-    text-decoration: none;
-}
-
-.btn.btn-lg{
-    padding: 21px 35px 21px 35px;
-    border-radius: 35px;
-    font-size: 24px;
-    font-weight: 500;
-}
