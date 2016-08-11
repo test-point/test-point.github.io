@@ -3,15 +3,23 @@ html, body{
 }
 
 body{
-  font-family: Arial, sans-serif;
+  font-family: $font-family;
   color: #242525;
   background: #f9f9f9;
+}
+
+img{
+  max-width: 100%;
 }
 
 .wrapper{
   max-width: 1200px;
   margin: 0 auto;
   padding: 0;
+
+  @media (min-width:767px){
+    padding: 0 $mobile-padding;
+  }
 }
 
 .wrapper:after{
@@ -24,4 +32,246 @@ body{
   min-height: 100%;
   height: auto !important;
   height: 100%;
+}
+
+.btn{
+  border: 2px solid #0da9af;
+  border-radius: 5px;
+  background-color: #fff;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #0da9af;
+  font-size: 20px;
+  padding: 13px 30px;
+}
+
+.company-book-box{
+  background: #fff;
+  text-align: center;
+  padding: 90px $mobile-padding;
+  color: #000;
+
+  h3, p{
+    max-width: 850px;
+  }
+
+  h3{
+    font-weight: 700;
+    font-size: 24px;
+    margin: 25px auto $mobile-padding auto;
+  }
+
+  p{
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 0 auto 30px auto;
+  }
+}
+
+#tabs{
+  padding: 100px 15px;
+
+  @media (max-width: 767px) {
+    padding: 40px $mobile-padding;
+  }
+
+  h2{
+    color: #1f1f1f;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 65px 0;
+
+    @media (max-width: 767px) {
+      margin: 0 0 25px 0;
+    }
+
+  }
+}
+
+.tabs-wrapper{
+  display: table;
+  width: 100%;
+  max-width: 954px;
+  margin: 0 auto;
+}
+
+.tabs{
+  display: table-row;
+  width: 100%;
+  border: 1px solid #f2f2f2;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 5px 21px rgba(0,0,0,.07);
+
+  .tabs-header,
+  .tabs-container{
+    display: table-cell;
+    vertical-align: top;
+  }
+
+  .r-tabs-accordion-title {
+    display: none;
+  }
+
+  .tabs-header{
+    background: $app-blue;
+    width: 25%;
+    list-style: none;
+    padding: 10px 0;
+
+    a{
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      padding: 6px 20px 6px 40px;
+      position: relative;
+    }
+
+    .r-tabs-state-active{
+      a{
+        color: #0daab0;
+
+        &:before{
+          display: block;
+          width: 8px;
+          height: 8px;
+          border-radius: 4px;
+          background-color: #0da9af;
+          content: '';
+          position: absolute;
+          left: 20px;
+          top: 50%;
+          margin-top: -4px;
+
+        }
+      }
+    }
+  }
+
+  .tabs-container{
+    background: #fff;
+    width: 75%;
+    padding: 15px 50px;
+
+    .tabs-content{
+      display: none;
+      font-size: 17px;
+      line-height: 1.5;
+
+      h3{
+        margin: 0 0 8px 0;
+        color: #173c85;
+        font-size: 25px;
+      }
+
+      p{
+        padding: 8px 0;
+      }
+
+
+    }
+
+  }
+
+}
+
+/* Accordion responsive breakpoint */
+@media only screen and (max-width: 768px) {
+  .tabs {
+
+    .tabs-container{
+      padding: 0;
+      width: 100%;
+      border: 1px solid $app-blue;
+
+      .tabs-content{
+        padding: 15px;
+      }
+    }
+
+  }
+
+  .r-tabs .r-tabs-nav {
+    display: none;
+  }
+
+  .r-tabs .r-tabs-accordion-title {
+    display: block;
+  }
+
+  .r-tabs{
+    border: 1px solid $app-blue;
+  }
+
+  .r-tabs .r-tabs-accordion-title a{
+    background: $app-blue;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+  }
+
+  .tabs{
+    padding: 0 10px;
+  }
+
+  .tabs-container{
+    display: block;
+    padding: 0;
+  }
+
+}
+
+.diagram{
+  text-align: center;
+  background: #144b89;
+  padding: 178px 15px 64px 15px;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  color: #fff;
+
+  @media (max-width: 767px) {
+    padding: 100px 10px 30px 10px;
+  }
+
+  .wrapper{
+    max-width: 960px;
+  }
+
+  h1{
+    font-size: 39px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 26px 0;
+
+    @media (max-width: 767px) {
+      font-size: 29px;
+      padding: 0 4px;
+    }
+  }
+
+  p{
+    font-size: 18px;
+    line-height: 26px;
+    padding: 0 40px 47px 40px;
+
+    @media (max-width: 767px) {
+      padding: 0 10px 47px 10px;
+    }
+  }
+
+  img{
+    max-width: 100%;
+  }
+
+  .home & {
+    background-image: url("../images/home-collage.jpg");
+  }
 }
