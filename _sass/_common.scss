@@ -96,6 +96,9 @@ img{
   width: 100%;
   max-width: 954px;
   margin: 0 auto;
+  -moz-box-shadow: 0 5px 21px rgba(0,0,0,.07);
+  -webkit-box-shadow: 0 5px 21px rgba(0,0,0,.07);
+  box-shadow: 0 5px 21px rgba(0,0,0,.07);
 }
 
 .tabs{
@@ -104,7 +107,6 @@ img{
   border: 1px solid #f2f2f2;
   border-radius: 6px;
   background-color: #fff;
-  box-shadow: 0 5px 21px rgba(0,0,0,.07);
 
   .tabs-header,
   .tabs-container{
