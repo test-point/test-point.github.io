@@ -4,6 +4,10 @@
   width: 100%;
   padding: 0 $mobile-padding;
 
+  .wrapper{
+    position: relative;
+  }
+
   .logo{
     float: left;
     color: #fff;
@@ -39,24 +43,145 @@
     }
   }
 
+  .main-logo{
+    position: absolute;
+    left: 50%;
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 33px;
+
+    @media (max-width: 480px) {
+      display: none;
+    }
+  }
+
   #main-nav{
     float: right;
-    padding: 42px 0 0 0;
+    padding: 34px 0 0 0;
 
     @media (max-width: 767px) {
-      padding: 38px 0 0 0;
+      padding: 32px 0 0 0;
     }
 
-    ul{
-      list-style: none;
+    label{
+      display: none;
     }
 
+    input{
+      display: none;
+    }
 
-    a{
+    a, label{
       color: #fff;
       text-decoration: none;
       font-size: 18px;
+      padding: 8px 10px;
+      display: block;
+
+      &.has-dropdown:after{
+        font-family: "fontello";
+        display: inline-block;
+        text-decoration: inherit;
+        width: 1em;
+        margin-right: .2em;
+        text-align: center;
+        font-variant: normal;
+        text-transform: none;
+
+        /* fix buttons height, for twitter bootstrap */
+        line-height: 1em;
+
+        /* Animation center compensation - margins should be symmetric */
+        /* remove if not needed */
+        margin-left: .2em;
+
+        /* you can be more comfortable with increased icons size */
+        /* font-size: 120%; */
+
+        /* Font smoothing. That was taken from TWBS */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content: '\f107';
+      }
     }
+
+    a.has-dropdown{
+      display: block;
+
+      @media (max-width: 767px) {
+        display: none;
+      }
+    }
+    label.has-dropdown{
+      display: none;
+
+      @media (max-width: 767px) {
+        display: block;
+      }
+    }
+
+
+    ul{
+      list-style: none;
+
+      li{
+
+        ul{
+          display: none;
+        }
+
+        @media (min-width: 768px) {
+          &:hover{
+            background: rgba(36,61,146, 0.7);
+
+            ul{
+              display: block;
+            }
+
+          }
+        }
+
+        @media (max-width: 767px) {
+          input:checked + ul{
+            display: block;
+          }
+        }
+
+        ul{
+          position: absolute;
+          right: $mobile-padding;
+          text-align: left;
+          background: rgba(36,61,146, 0.8);
+
+          @media (max-width: 767px) {
+            right: 0;
+          }
+
+          li{
+            display: block;
+            white-space: nowrap;
+
+            a{
+              padding: 5px 5px 5px 10px;
+              display: block;
+              font-size: 16px;
+
+              &:hover{
+                background: rgba(36,61,146, 0.3);
+              }
+            }
+          }
+        }
+
+
+      }
+
+    }
+
+
+
   }
 
 }

@@ -237,6 +237,7 @@ img{
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  background-image: url("../images/subpage-collage.jpg");
   color: #fff;
 
   @media (max-width: 767px) {
@@ -271,9 +272,29 @@ img{
 
   img{
     max-width: 100%;
+    margin: 0 auto;
   }
 
   .home & {
     background-image: url("../images/home-collage.jpg");
+  }
+
+  .diagram-image{
+    .visible-desktop{
+      display: block;
+
+      @media (max-width: 767px) {
+        display: none;
+      }
+
+    }
+    .visible-mobile{
+      display: none;
+
+      @media (max-width: 767px) {
+        display: block;
+      }
+
+    }
   }
 }
