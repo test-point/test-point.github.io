@@ -16,11 +16,11 @@ tagline: Ledger Access Point
     </div>
 </section>
 <section id="tabs">
-    <h2>AVAILABLE IODC IDP TEST RESOURCES</h2>
+    <h2>LEDGER ACCESS POINT</h2>
     <div class="tabs-wrapper">
         <div class="tabs">
             <ul class="tabs-header">
-            {% assign tabs = site.tabs | where: "page" , "subpage" %}
+            {% assign tabs = site.tabs | where: "page" , "lap" %}
             {% for tab in tabs %}
                 <li><a href="#home-{{ tab.id | slugify: 'pretty' }}">{{ tab.title }}</a></li>
             {% endfor %}
