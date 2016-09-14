@@ -1,15 +1,11 @@
 ---
 layout: default
 title: IDP
-page: subpage
+page: home
 ---
 ### Identity Provider
 
-Authenticate with a GitHub account to claim ABNs and manage their credentials.
 
-https://idp.testpoint.io/
+The [testpoint IDP](https://idp.testpoint.io/) provides developer-managed credentials for ABNs, which can be used to access the testpoint [SMP](https://smp.testpoint.io) and [DCL](https://dcl.testpoint.io/) services.
 
-You can use these accounts for your own testing purposes.
-
-Logging into the testpoint.io IDP with GitHub account will also allow you to manage OIDC Relying Party credentials.
- 
+Authenticate with a GitHub account to claim and manage ABN credentials and register OIDC Relying Parties for your own testing purposes.

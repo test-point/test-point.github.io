@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Digital Capability Locator
-page: subpage
+title: DCL
+page: home
 ---
 
 ### Digital Capability Locator
