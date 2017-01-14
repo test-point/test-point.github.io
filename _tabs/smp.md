@@ -1,9 +1,9 @@
 ---
-layout: default
-title: SMP
-page: home
+<!--layout: default-->
+<!--title: SMP-->
+<!--page: home-->
 ---
-### Service Metadata Publisherg
+### Service Metadata Publisher
 
 The testpoint [SMP service](https://smp.testpoint.io/) is the reference implementation behind the [SMP SwaggerHub specification](https://swaggerhub.com/api/ausdigital/metadata-publisher/1.0).
 
