@@ -6,7 +6,7 @@ page: home
 
 ### Digital Capability Locator
 
-The [Ausdigital](http://ausdigital.org/) DCL specification is under active development at [GitHub](https://github.com/ausdigital/capability-locator).
+The [Ausdigital](http://ausdigital.org/) DCL specification is under active development at [GitHub](https://github.com/ausdigital/ausdigital-dcl).
 
 The [Testpoint DCL service](https://dcl.testpoint.io/) is a free DCL implementation to facilitate B2B development.
 
