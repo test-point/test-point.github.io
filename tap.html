@@ -2,8 +2,8 @@
 layout: subpage
 title: A Testpoint.io access point test service
 classwWapper: ap
-subdomain: lap
-tagline: Ledger Access Point
+subdomain: tap
+tagline: Transaction Access Point
 ---
 <section class="diagram">
     <div class="wrapper">
@@ -16,11 +16,11 @@ tagline: Ledger Access Point
     </div>
 </section>
 <section id="tabs">
-    <h2>LEDGER ACCESS POINT</h2>
+    <h2>TRANSACTION ACCESS POINT</h2>
     <div class="tabs-wrapper">
         <div class="tabs">
             <ul class="tabs-header">
-            {% assign tabs = site.tabs | where: "page" , "lap" %}
+            {% assign tabs = site.tabs | where: "page" , "tap" %}
             {% for tab in tabs %}
                 <li><a href="#home-{{ tab.id | slugify: 'pretty' }}">{{ tab.title }}</a></li>
             {% endfor %}

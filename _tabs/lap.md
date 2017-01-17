@@ -1,10 +1,10 @@
 ---
 layout: default
-title: LAP
+title: TAP
 page: home
 ---
-### Ledger Access Point
+### Transaction Access Point
 
-[Ausdigital](http://ausdigital.org) LAP specifications are under active development at [GitHub](https://github.com/ausdigital/ausdigital-tap)
+[Ausdigital](http://ausdigital.org) TAP specifications are under active development at [GitHub](https://github.com/ausdigital/ausdigital-tap)
 
-A testpoint LAP service is under construction. This will provide a reference and enable B2B development interactions.
+A testpoint TAP service is under construction. This will provide a reference and enable B2B development interactions.
