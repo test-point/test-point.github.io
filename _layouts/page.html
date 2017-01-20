@@ -1,12 +1,12 @@
 <!doctype html>
-<html>
+<html lang="en">
 {% include head.html %}
 <body class="{{ page.classWrapper }}">
 <div class="main-wrapper">
     <div class="header">
         <header class="wrapper">
             <div class="logo">
-                <a href="/" title=""><img src="/images/logo.png" alt=""></a>
+                <a href="/" title=""><img src="/images/logo.png" alt="A Testpoint.io access point test service"></a>
                 <a href="http://{{ page.subdomain }}{%  if page.subdomain %}.{% endif %}testpoint.io">{{ page.subdomain }}{%  if page.subdomain %}.{% endif %}testpoint.io</a>
                 {%  if page.tagline  %}<span class="tagline">{{ page.tagline }}</span>{% endif %}
             </div>
@@ -14,7 +14,6 @@
             {% include menu.html %}
         </header>
     </div>
-
 
     <section class="diagram">
         <div class="wrapper">
@@ -43,12 +42,12 @@
             <div class="tabs">
                 <ul class="tabs-header">
                     {% for tab in tabs %}
-                    <li><a href="#{{ tab.id | slugify: 'pretty' }}">{{ tab.title }}</a></li>
+                    <li><a href="#{{ tab.id | slugify: 'pretty' }}-{{tab.page}}">{{ tab.title }}</a></li>
                     {% endfor %}
                 </ul>
                 <div class="tabs-container">
-                    {% for tab in site.tabs %}
-                    <div id="{{ tab.id  | slugify: 'pretty' }}" class="tabs-content">
+                    {% for tab in tabs %}
+                    <div id="{{ tab.id  | slugify: 'pretty' }}-{{tab.page}}" class="tabs-content">
                         {{ tab.content }}
                     </div>
                     {% endfor %}
