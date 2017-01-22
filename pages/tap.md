@@ -2,7 +2,7 @@
 layout: page
 title: A Testpoint.io access point test service
 classWrapper: tap
-description: B2B frameworks may leverage multiple providers of identity with varying degrees of identity confidence, The higher the identity integrity, the lower the rist associated with B2B transactions and the lower the cost of services such as trade financing. This test service simulates various OIDC providers and scopes. 
+description: Transaction Access Point specification describes a secure peer-to-peer method for delivering business messages to a participant endpoints, without the need for intermediary hubs.
 pageName: tap
 diagram: /images/diagrams/test-ap.png
 diagramMobile: /images/diagrams/test-ap-mobile.png

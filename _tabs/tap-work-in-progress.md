@@ -5,6 +5,6 @@ page: tap
 ---
 ### Work In Progress
 
-[Ausdigital](http://ausdigital.org) TAP specification describes how business messages are delivered to a participant endpoint in a peer-to-peer way [GitHub](https://github.com/ausdigital/ausdigital-tap)
+[AusDigital](http://ausdigital.org) TAP specification is under development at [GitHub](https://github.com/ausdigital/ausdigital-tap/). This describes how business messages are securely delivered to a participant endpoints in a peer-to-peer way.
 
 A testpoint TAP service is under construction. This will provide a reference and enable B2B development interactions.
