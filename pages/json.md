@@ -5,6 +5,8 @@ diagram: /images/diagrams/test-tdr.png
 diagramMobile: /images/diagrams/test-tdr-mobile.png
 contentTitle: UBL JSON Format
 permalink: /json
+menuTitle: Test JSON
+menuOrder: 6
 ---
 ### Work In Progress
 
