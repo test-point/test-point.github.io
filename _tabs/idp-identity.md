@@ -13,9 +13,9 @@ Instructions:
 
 1.  Navigate to the [login page](https://idp.testpoint.io/login/)
 2.  Login with Github
-3.  Create synthetic user with any free abn (pick ABN you like at dcp.testpoint.io business search page)
+3.  Create synthetic user with any available ABN
 4.  Logout with Github
-5.  Go to any supporting service (e.g. [Testpoint DCP](https://dcp.testpoint.io/)) and try login with idp.testpoint.io
+5.  Go to any supporting service (e.g. [Testpoint DCP](https://testpoint.io/dcp.html)) and try login with idp.testpoint.io
 6.  Enter your ABN and password (which doesn't have to be very secure) at login form
 7.  Enjoy accessing the supporting service (e.g. DCP) as the synthetic business user
 
