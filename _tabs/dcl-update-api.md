@@ -16,4 +16,4 @@ To use the simplified management interface:
 2. Then select the "Update DCP" link at the top right of the page.
 3. Then fill in the form and click "submit".
 
-This requires that you log in with ABN credentials that have been configured with the [Testpoint IDP](http://idp.testpoint.io/).
+This requires that you log in with ABN credentials that have been configured with the [Testpoint IDP](http://testpoint.io/idp.html).
