@@ -4,12 +4,11 @@
             <a href="#" class="has-dropdown">Services</a>
             <label for="dropdown" class="has-dropdown">Services</label>
             <input type="checkbox" id="dropdown"/>
+            {% assign pages = site.pages | sort:"menuOrder" %}
             <ul class="subemnu">
-                <li><a href="/tap.html">Test TAP</a></li>
-                <li><a href="/nry.html">Test NRY</a></li>
-                <li><a href="/idp.html">Test IDP</a></li>
-                <li><a href="/dcl.html">Test DCL</a></li>
-                <li><a href="/dcp.html">Test DCP</a></li>
+                {% for page in pages %}
+                    {% if page.menuTitle %}<li><a href="{{ page.url }}">{{ page.menuTitle }}</a></li>{% endif %}
+                {% endfor %}
             </ul>
         </li>
     </ul>

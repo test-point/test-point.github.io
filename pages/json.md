@@ -1,11 +1,13 @@
 ---
-layout: page
 title: A Testpoint.io UBL JSON Format test service
-classWrapper: json
 description: The AusDigital UBL JSON Format reference implementation and test suite.
-pageName: json
 diagram: /images/diagrams/test-tdr.png
 diagramMobile: /images/diagrams/test-tdr-mobile.png
-tabsTitle: UBL JSON Format
+contentTitle: UBL JSON Format
 permalink: /json
 ---
+### Work In Progress
+
+[Ausdigital](http://ausdigital.org) JSON UBL Format specifications are under active development at [GitHub](https://github.com/ausdigital/ausdigital-json)
+
+A testpoint JSON UBL Format service is under construction. This will provide a reference and enable B2B development interactions.

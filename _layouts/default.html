@@ -1,12 +1,32 @@
 <!doctype html>
-<html>
+<html lang="en">
 {% include head.html %}
-<body class="{{ page.classwWapper }}">
+<body {% if page.classWrapper %} class="{{ page.classWrapper }}"{% endif %}>
 <div class="main-wrapper">
-    {% include header.html %}
-
-    {{ content }}
-
+    <div class="header">
+        <header class="wrapper">
+            <div class="logo">
+                <a href="{{ site.url }}" title=""><img src="/images/logo.png" alt="A Testpoint.io access point test service"></a>
+                <a href="{{ site.url }}">testpoint.io</a>
+                {% if page.tagline  %}<span class="tagline">{{ page.tagline }}</span>{% endif %}
+            </div>
+            {% include menu.html %}
+        </header>
+    </div>
+    <section class="diagram">
+        <div class="wrapper">
+            {% if page.title %}<h1>{{page.title}}</h1>{% endif %}
+            {% if page.description %}<p>{{page.description}}</p>{% endif %}
+            <div class="diagram-image">
+                {% if page.diagram %}<img src="{{ page.diagram }}" class="visible-desktop" alt="">{% endif %}
+                {% if page.diagramMobile %}<img src="{{ page.diagramMobile }}" class="visible-mobile" alt="">{% endif %}
+            </div>
+        </div>
+    </section>
+    {%  if page.contentTitle %}<h2 class="content-title">{{ page.contentTitle }}</h2>{% endif %}
+    <div class="main-content">
+        {{ content }}
+    </div>
 </div>
 {% include footer.html %}
 </body>
