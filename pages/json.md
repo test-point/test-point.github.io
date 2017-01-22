@@ -13,8 +13,9 @@ menuOrder: 6
 In accordance wih the ausdigital [JSON Specification](https://github.com/ausdigital/ausdigital-json), testpoint.io offers free transformation APIs for lossless bi-directional transformation between international namespace qualified XML UBL and a simple signle root JSON representation.  We expect that the majority of national invoices will use the JSON representation but it is useful to be able to transform to/from UBL for international interoperability with other jusrisdictions (mostly the EU) that also use UBL.
 
 Please POST your XML or JSON UBL to:
-json.testpoint.io/api/v0/ubl2json
-json.testpoint.io/api/v0/json2ubl
+
+* json.testpoint.io/api/v0/ubl2json
+* json.testpoint.io/api/v0/json2ubl
 
 ### Transformation Docker Container
 
