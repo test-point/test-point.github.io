@@ -15,11 +15,11 @@ Instructions:
 2.  Login with Github
 3.  Create synthetic user with any available ABN
 4.  Logout with Github
-5.  Go to any supporting service (e.g. [Testpoint DCP](http://testpoint.io/dcp.html)) and try login with idp.testpoint.io
-6.  Enter your ABN and password (which doesn't have to be very secure) at login form
-7.  Enjoy accessing the supporting service (e.g. DCP) as the synthetic business user
+5.  Login again using synthetic user credentials you made in step 3.
+6.  Select a client (e.g. dcp.testpoint.io) and select "Issue new token for this client"
+7.  Make note of the JWT token (copy/paste), which you can use to access that service as this user
 
-After you logged in on this website you can click your synthetic username in top menu and get or generate your own OIDC token (check "Rendered" version). While you possess this token and it's not expired yet you can use it to authenticate on any supporting API installation. Please reffer specific API documentation or examples about how to use this token in this case. Usually it's like:
+For example:
 
 <pre>export IDP_AUTH="JWT {YOUR-TOKEN-HERE}"
 curl -v -X GET --header 'Content-Type: application/json' \
