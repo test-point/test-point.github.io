@@ -5,6 +5,6 @@ page: nry
 ---
 ### Work in Progress
 
-AusDigital are developing open standards for notary services to support B2B protocols. These are under development at [GitHub](https://github.com/ausdigital/ausdigital-nry)
+[AusDigital](http://ausdigital.org/) are developing open standards for notary services to support B2B protocols. These are under development at [GitHub](https://github.com/ausdigital/ausdigital-nry)
 
 We will release a free nry.testpoint.io service when the spec is more developed.
