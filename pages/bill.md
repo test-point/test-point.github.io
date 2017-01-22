@@ -1,13 +1,17 @@
 ---
-title: A Testpoint.io Bill test service
-description: Page description
+title: A Testpoint.io Billing test service
+description: A document validation API and message sender service for ausdigital.org billing specification implementers.
 diagram: /images/diagrams/test-tdr.png
 diagramMobile: /images/diagrams/test-tdr-mobile.png
-contentTitle: Bill content header
+contentTitle: Billing Test Services
 permalink: /bill
-menuTitle: Test Bill
+menuTitle: Test BILL
 menuOrder: 7
 ---
-### Bill descripition
+### Validation Service
 
-Some content
+Coming soon
+
+### Invoice Sender Service
+
+Coming soon
