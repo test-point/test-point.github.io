@@ -2,11 +2,11 @@
 layout: page
 title: A Testpoint.io notary test service
 classWrapper: nry
-description: B2B frameworks may leverage multiple providers of identity with varying degrees of identity confidence, The higher the identity integrity, the lower the rist associated with B2B transactions and the lower the cost of services such as trade financing. This test service simulates various OIDC providers and scopes.
+description: A Notary can be used to prove a message existed. This enables secure-by-design B2B protocols that require less trust to function. This increases efficiency where it reduces the need for expensive and unreliable perimeter security.
 pageName: nry
 diagram: /images/diagrams/test-nry.png
 diagramMobile: /images/diagrams/test-nry-mobile.png
-tabsTitle: Blockchain notary 
+tabsTitle: Notary 
 permalink: /nry
-tagline: Blockchain Notary
+tagline: Notary
 ---
