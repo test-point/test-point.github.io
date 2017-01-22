@@ -6,7 +6,7 @@ diagramMobile: /images/diagrams/test-ap-mobile.png
 contentTitle: Test TAP-GW service
 permalink: /tap-gw
 tagline: TAP Gateway
-menuTitle: Test TAP-GW service
+menuTitle: Test TAP-GW
 menuOrder: 5
 ---
 ### Work In Progress
