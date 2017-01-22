@@ -17,6 +17,8 @@ Please POST your XML or JSON UBL to:
 * json.testpoint.io/api/v0/ubl2json
 * json.testpoint.io/api/v0/json2ubl
 
+In accordance with the ausdigital [API Specifciation](https://app.swaggerhub.com/api/ausdigital/ausdigital-json/1.0.0).  No authentication is required.
+
 ### Transformation Docker Container
 
 As an implemener, you may use the SaaS API for transformations as needed.  However you may also wish to perform transformations locally, thereby avoiding the need to send un-encrypted invoice data outside of your controlled network.   Testpoint is pleased to offer a free containderised version of the transformation API.
