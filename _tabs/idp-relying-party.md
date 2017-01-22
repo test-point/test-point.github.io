@@ -9,7 +9,8 @@ The Testpoint IDP is a standards compliant OICD Identity Provider. In adition to
 
 Instructions:
 
-*   Login to the IDP client with GitHub
-*   Create your RP client using the web interface
-*   Record the client id and client secret issued by the IDP
-*   Configure your service (OIDC client) to use the credentials provided
+1.  Navigate to the [login page](https://idp.testpoint.io/login/)
+2.  Login to the IDP client with GitHub
+3.  Create your RP client using the web interface
+4.  Record the client id and client secret issued by the IDP
+5.  Configure your service (OIDC client) to use the credentials provided
