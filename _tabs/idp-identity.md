@@ -11,12 +11,13 @@ There are two ways to interact with the IDP service. Authenticating directly to 
 
 Instructions:
 
-1.  Login with Github
-2.  Create synthetic user with any free abn (pick ABN you like at dcp.testpoint.io business search page)
-3.  Logout with Github
-4.  Go to any supporting service (e.g. [Testpoint DCP](https://dcp.testpoint.io/)) and try login with idp.testpoint.io
-5.  Enter your ABN and password (which doesn't have to be very secure) at login form
-6.  Enjoy accessing the supporting service (e.g. DCP) as the synthetic business user
+1.  Navigate to the [login page](https://idp.testpoint.io/login/)
+2.  Login with Github
+3.  Create synthetic user with any free abn (pick ABN you like at dcp.testpoint.io business search page)
+4.  Logout with Github
+5.  Go to any supporting service (e.g. [Testpoint DCP](https://dcp.testpoint.io/)) and try login with idp.testpoint.io
+6.  Enter your ABN and password (which doesn't have to be very secure) at login form
+7.  Enjoy accessing the supporting service (e.g. DCP) as the synthetic business user
 
 After you logged in on this website you can click your synthetic username in top menu and get or generate your own OIDC token (check "Rendered" version). While you possess this token and it's not expired yet you can use it to authenticate on any supporting API installation. Please reffer specific API documentation or examples about how to use this token in this case. Usually it's like:
 
