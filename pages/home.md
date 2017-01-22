@@ -1,44 +1,23 @@
 ---
-title: Free restful test end-points for integrated b2b communities
-description: Unlike single provider RESTful services(e.g. Google or Facebook APIs), a B2B process like e-invoicing needs multiple providers to support the same standard interface. Testpoint.io supports the community by providing teset services for implementers of standard API specifications
+title: Free RESTful test end-points for integrated b2b communities
+description: A suite of test services, test client, and test cases designed to support the ausdigital.org implementer community.
 diagram: /images/home-diagram.png
 diagramMobile: /images/home-diagram.png
-contentTitle: Available testpoints
+contentTitle: Testpoint Overview
 permalink: /
 tagline: B2B Developer Resources
 classWrapper: home
 ---
-### Digital Capability Locator
+### Why did we build testpoint.io?
 
-The [Ausdigital](http://ausdigital.org/) DCL specification is under active development at [GitHub](https://github.com/ausdigital/ausdigital-dcl).
+Testpoint.io exists to support the [ausdigital.org](http://ausdigital.org/) implementer community.  Unlike single provider RESTful services(e.g. Google or Facebook APIs), a B2B process like e-invoicing needs multiple providers to support the same standard interface and to make their services discoverable.  As the detailed specifcations at [ausdigital.org](http://ausdigital.org/) describe, there are a number of moving parts.  Without a suite of test services and test cases, there would be a major risk of incompatible implmenetations.
 
-The [Testpoint DCL service](http://testpoint.io/dcl.html) is a free DCL implementation to facilitate B2B development.
+### How to use testpoint.io
 
-The Testpoint DCL management interface is integrated with the [testpoint IDP](http://testpoint.io/idp.html) for access control, and the [testpoint DCP](http://testpoint.io/dcp.html), however other DCPs can also be used.
+In short, build your implementation of whichever specifications you intend to support in your product, then run the testpoint.io test suite for each specification. Although there will be some network service providers that will implement a number of the ausdigital technical specifications, by far the most common implementer is the vendor of a software product (eg a ledger solution) that will the the ultimate sender or receiver of invoices and other business documents.  Therefore our primary focus is to support that implementer role. There are two key implementation and testing steps:
 
-### Digital Capability Publisher
+* **Support the standard billing process**.  As defined by the ausdigital [BILL](http://ausdigital-bill.readthedocs.io/en/latest/) specification.  Note that, although there is just one invoice schema, it can be used (with slight variations) in six process contexts (invoice, adjustment invoice, tax receipt, RCTI, credit note, debit note).  Also please note that the business response message that describes the state of the invoice (acknowledged, approved, disputed, rejected) is as important as the invoice itself.  The testpoint.io [BILL](http://testpoint.io/bill) service offers a validation API for you to test your implementation.
+* **Plug into the network**.  Build a [TAP-GW](http://ausdigital-tap-gw.readthedocs.io/en/latest/) client into your product. For this purpose, you may choose to use one of the free testpoint.io [TAP-GW client reference implementations](https://github.com/test-point/testpoint-tap-gw).  Use the teastpoint.io TAP-GW test service to test sending and receiving invoices and responses with the test network.  To do that without collisions with other testers, please ise the testpoint.io IDP service to create your test account and claim any number of test ABNs. You can then use the TAP-GW API to publish to the testpoint.io DCL and DCP.  After that you will be able to send messages **from** your ABNs to any other ABN on the test network.  You will also be able to use the testpoint.io BILL message sender service to send invoices **from** a testpoint.io ABN **to** one of your own ABNs.
 
-The testpoint [DCP service](http://testpoint.io/dcp.html) is the reference implementation behind the [DCP SwaggerHub specification](https://swaggerhub.com/api/ausdigital/ausdigital-dcp/1.0).
+Once you are able to create and consume valid invoices and response, and have successfully exchanged messages with external ABNs via the testpoint.io TAP-GW, and have completed all relevant test cases, then you are ready for production.
 
-This is under active development, support is available through the [GitHub group](https://github.com/ausdigital/ausdigital-dcp/issues).
-
-### Identity Provider
-
-
-The [testpoint IDP](http://testpoint.io/idp.html) provides developer-managed credentials for ABNs, which can be used to access the testpoint [DCP](http://testpoint.io/dcp.html) and [DCL](http://testpoint.io/dcl.html) services.
-
-Authenticate with a GitHub account to claim and manage ABN credentials and register OIDC Relying Parties for your own testing purposes.
-
-### Transaction Access Point
-
-[Ausdigital](http://ausdigital.org) TAP specifications are under active development at [GitHub](https://github.com/ausdigital/ausdigital-tap)
-
-A testpoint TAP service is under construction. This will provide a reference and enable B2B development interactions.
-
-### Notary
-
-A notary can be used to prove a message existed. This enables secure-by-design B2B protocols that require less trust to function. This increases efficiency where it reduces the need for expensive and unreliable perimeter security.
-
-AusDigital are developing open standards for notary services to support B2B protocols. These are under development at [GitHub](https://github.com/ausdigital/ausdigital-nry)
-
-We will release a free nry.testpoint.io service when the spec is more developed.
