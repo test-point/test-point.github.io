@@ -17,7 +17,7 @@ Please POST your XML or JSON UBL to:
 * json.testpoint.io/api/v0/ubl2json
 * json.testpoint.io/api/v0/json2ubl
 
-In accordance with the ausdigital [API Specifciation](https://app.swaggerhub.com/api/ausdigital/ausdigital-json/1.0.0).  No authentication is required.
+In accordance with the ausdigital [API Specification](https://app.swaggerhub.com/api/ausdigital/ausdigital-json/1.0.0).  No authentication is required.
 
 ### Transformation Docker Container
 
