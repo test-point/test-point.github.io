@@ -2,7 +2,7 @@
 layout: page
 title: A Testpoint.io capability lookup test service
 classWrapper: dcl
-description: B2B frameworks may leverage multiple providers of identity with varying degrees of identity confidence, The higher the identity integrity, the lower the rist associated with B2B transactions and the lower the cost of services such as trade financing. This test service simulates various OIDC providers and scopes.
+description: The Digital Capability Lookup service is a common entry point for both the modern RESTful e-Invoicing and legacy EDI systems. This uses the Domain Name System (NAPTR records) to enables dynamic discovery of Digital Capability Publisher for business identities.
 pageName: dcl
 diagram: /images/diagrams/test-dcl.png
 diagramMobile: /images/diagrams/test-dcl-mobile.png
