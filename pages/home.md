@@ -1,8 +1,8 @@
 ---
 title: Free RESTful test end-points for integrated b2b communities
 description: A suite of test services, test client, and test cases designed to support the ausdigital.org implementer community.
-diagram: /images/home-diagram.png
-diagramMobile: /images/home-diagram.png
+diagram: /images/diagrams/home-diagram.png
+diagramMobile: /images/diagrams/home-diagram-mobile.png
 contentTitle: Testpoint Overview
 permalink: /
 tagline: B2B Developer Resources
