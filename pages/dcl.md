@@ -33,7 +33,7 @@ The full DCL Management API is a work in progress. Please contribute to discussi
 
 The dcl.testpoint.io reference implementation (and free service) provides a simplified management interface that is adequate for many testing and development purposes.
 
-To use the simplified management interface, first you need a synthetic user credentials from the TestPoint IDP:
+To use the simplified management interface, first you need a synthetic user credentials from the TestPoint IDP (if you haven't already done so):
 
 1.  Navigate to the [IDP login page](https://idp.testpoint.io/login/)
 2.  Login with Github
