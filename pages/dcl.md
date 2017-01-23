@@ -33,10 +33,14 @@ The full DCL Management API is a work in progress. Please contribute to discussi
 
 The dcl.testpoint.io reference implementation (and free service) provides a simplified management interface that is adequate for many testing and development purposes.
 
-To use the simplified management interface:
+To use the simplified management interface, first you need a synthetic user credentials from the TestPoint IDP:
 
-1. Click the "Login with idp.testpoint.io" link at the top right of the page.
-2. Then select the "Update DCP" link at the top right of the page.
-3. Then fill in the form and click "submit".
+1.  Navigate to the [IDP login page](https://idp.testpoint.io/login/)
+2.  Login with Github
+3.  Create synthetic user with any available ABN
 
-This requires that you log in with ABN credentials that have been configured with the [Testpoint IDP](http://testpoint.io/idp.html).
+Using the credentials you created above, you can manage the DCL entry for that ABN:
+
+1.  Navigate to the [DCL login page](https://dcl.testoint.io/login/)
+2.  Log in with your synthetic credentials (this will take you past https://idp.testpoint.io using OIDC code-flow)
+3.  Update the "New DCP Value" and click "Submit".
