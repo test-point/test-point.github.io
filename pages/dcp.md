@@ -15,7 +15,7 @@ TestPoint DCP implements the [AusDigital](http://ausdigital.org/) Digital Capabi
 
 The DCP is available with and without authentication at https://dcp.testpoint.io/api/v0/
 
-As with other TestPoint APIs, authenticated access is available using synthetic user accounts from the [TestPoint IDP](http://testpoint.io/idp.hmtl). If you don't already have a synthetic user account:
+As with other TestPoint APIs, authenticated access is available using synthetic user accounts from the [TestPoint IDP](http://testpoint.io/idp.html). If you don't already have a synthetic user account:
 
 1.  Navigate to the [IDP login](https://idp.testpoint.io/login/) page
 2.  Login with Github
