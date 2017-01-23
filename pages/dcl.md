@@ -41,6 +41,6 @@ To use the simplified management interface, first you need a synthetic user cred
 
 Using the credentials you created above, you can manage the DCL entry for that ABN:
 
-1.  Navigate to the [DCL login page](https://dcl.testoint.io/login/)
+1.  Navigate to the [DCL login page](https://dcl.testpoint.io/login/)
 2.  Log in with your synthetic credentials (this will take you past https://idp.testpoint.io using OIDC code-flow)
 3.  Update the "New DCP Value" and click "Submit".
