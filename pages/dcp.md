@@ -25,7 +25,7 @@ As with other TestPoint APIs, authenticated access is available using synthetic 
 With these synthetic user credentials, you can use the TestPoint IDP to create a JWT for the TestPoint DCP:
 
 1.  [Login again](https://idp.testpoint.io/login/) to the IDP, this time using the synthetic user credentials you made above.
-2.  Select the `dcp.testpoint.io` client and click “Issue new token for this client”
+2.  Select the `dcp.testpoint.io` client and click **Issue new token for this client**
 3.  Make note of the JWT token (copy/paste), which you can use to access the TestPoint DCP (as the synthetic user)
 
 You can now use this JWT to gain authenticated access the TestPoint DCP. For example:
