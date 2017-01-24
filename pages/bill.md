@@ -10,7 +10,11 @@ menuOrder: 7
 ---
 ### Validation Service
 
-Coming soon
+POST a JSON invoice that complies with the [BILL specification](http://ausdigital-bill.readthedocs.io/en/latest/) to the following end point:
+
+http://bill.testpoint.io/api/v0/validator
+
+In accordance with the validation [API specification](https://app.swaggerhub.com/api/ausdigital/ausdigital-json/1.0.0)
 
 ### Invoice Sender Service
 
