@@ -14,7 +14,7 @@ POST a JSON invoice that complies with the [BILL specification](http://ausdigita
 
 http://bill.testpoint.io/api/v0/validator
 
-In accordance with the validation [API specification](https://app.swaggerhub.com/api/ausdigital/ausdigital-ubl-json/1.0.0)
+In accordance with the validation [API specification](https://app.swaggerhub.com/api/ausdigital/ausdigital-syn/1.0.0)
 
 ### Invoice Sender Service
 
