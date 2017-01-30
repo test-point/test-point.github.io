@@ -3,9 +3,9 @@ title: A Testpoint.io UBL Syntax 2.0 test service
 description: The AusDigital UBL Syntax 2.0 Specification reference implementation and test suite.
 diagram: /images/diagrams/test-tdr.png
 diagramMobile: /images/diagrams/test-tdr-mobile.png
-contentTitle: UBL JSON Format
+contentTitle: UBL Syntax 2.0
 permalink: /syn
-menuTitle: Test UBL Syntax 2.0
+menuTitle: Test SYN
 menuOrder: 6
 ---
 ### Transformation API
