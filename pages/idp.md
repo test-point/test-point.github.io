@@ -1,6 +1,6 @@
 ---
 title: A Testpoint.io identity provider test service
-description: B2B frameworks may leverage multiple providers of identity with varying degrees of identity confidence, The higher the identity integrity, the lower the rist associated with B2B transactions and the lower the cost of services such as trade financing. This test service simulates various OIDC providers and scopes. 
+description: B2B frameworks may leverage multiple providers of identity with varying degrees of identity confidence, The higher the identity integrity, the lower the risk associated with B2B transactions and the lower the cost of services such as trade financing. This test service simulates various OIDC providers and scopes. 
 diagram: /images/diagrams/test-idp.png
 diagramMobile: /images/diagrams/test-idp-mobile.png
 contentTitle: Available iodc idp test resources
@@ -36,7 +36,7 @@ curl -v -X GET --header 'Content-Type: application/json' \
 
 ### Relying Party
 
-The Testpoint IDP is a standards compliant OICD Identity Provider. In adition to using it to authenticate and authorise synthetic ABN users against Testpoint services, you can also register your own services (OIDC Relying Parties). This way, it can be used to support development of arbitrary services requiring consent-based access to ABN identities.
+The Testpoint IDP is a standards compliant OICD Identity Provider. In addition to using it to authenticate and authorise synthetic ABN users against Testpoint services, you can also register your own services (OIDC Relying Parties). This way, it can be used to support development of arbitrary services requiring consent-based access to ABN identities.
 
 Instructions:
 
