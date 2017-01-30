@@ -17,7 +17,7 @@ The reference implementation is Free Open-Source Software (FOSS) released under 
 * [DCL server code and documentation](https://github.com/test-point/testpoint-dcl/tree/master/src-py)
 * [DCL test automation client](https://github.com/test-point/testpoint-dcl/tree/master/tests/bdd-remote)
 
-For support, please first [ask the community](https://ausdigital.slack.com/messages/testpoint/) and, if that doest work then [raise a ticket](https://github.com/test-point/testpoint-dcl/issues).
+For support, please first [ask the community](https://ausdigital.slack.com/messages/testpoint/) and, if that doesn't work then [raise a ticket](https://github.com/test-point/testpoint-dcl/issues).
 
 
 ### Query API

@@ -10,7 +10,7 @@ menuOrder: 6
 ---
 ### Transformation API
 
-In accordance wih the ausdigital [UBL Syntax 2.0 Specification](https://github.com/ausdigital/ausdigital-syn), testpoint.io offers free transformation APIs for lossless bi-directional transformation between international namespace qualified UBL XML and a simple signle root JSON representation.  We expect that the majority of national invoices will use the JSON representation but it is useful to be able to transform to/from UBL for international interoperability with other jusrisdictions (mostly the EU) that also use UBL.
+In accordance with the ausdigital [UBL Syntax 2.0 Specification](https://github.com/ausdigital/ausdigital-syn), testpoint.io offers free transformation APIs for lossless bi-directional transformation between international namespace qualified UBL XML and a simple single root JSON representation.  We expect that the majority of national invoices will use the JSON representation but it is useful to be able to transform to/from UBL for international interoperability with other jurisdictions (mostly the EU) that also use UBL.
 
 Please POST your UBL XML to:
 
@@ -24,6 +24,6 @@ In accordance with the ausdigital [UBL Syntax 2.0 API](https://app.swaggerhub.co
 
 ### Transformation Docker Container
 
-As an implemener, you may use the SaaS API for transformations as needed.  However you may also wish to perform transformations locally, thereby avoiding the need to send un-encrypted invoice data outside of your controlled network.   Testpoint is pleased to offer a free containderised version of the transformation API.
+As an implementer, you may use the SaaS API for transformations as needed. However, you may also wish to perform transformations locally, thereby avoiding the need to send un-encrypted invoice data outside of your controlled network. Testpoint is pleased to offer a free containerised version of the transformation API.
 
 More to come on this....
