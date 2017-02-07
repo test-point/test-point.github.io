@@ -10,7 +10,7 @@ menuOrder: 7
 ---
 ### Validation Service
 
-POST a JSON invoice that complies with the [BILL specification](http://ausdigital-bill.readthedocs.io/en/latest/) to the following end point:
+POST a JSON invoice that complies with the [BILL 1.0](http://ausdigital.org/specs/ausdigital-bill/1.0/) specification to the following end point:
 
 http://bill.testpoint.io/api/v0/validator
 
