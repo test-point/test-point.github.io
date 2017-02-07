@@ -10,7 +10,7 @@ menuOrder: 4
 ---
 ### Open Source DCL
 
-dcl.testpoint.io is both a free service and a reference implementation of a Digital Capability Locator service (per [DCL-SPEC](http://ausdigital-dcl.readthedocs.io/)).
+dcl.testpoint.io is both a free service and a reference implementation of a Digital Capability Locator service (per [DCL-SPEC](http://ausdigital.org/specs/ausdigital-dcl/1.0)).
 
 The reference implementation is Free Open-Source Software (FOSS) released under [GPL3 License](https://www.gnu.org/licenses/gpl-3.0.en.html). 
 
@@ -22,9 +22,9 @@ For support, please first [ask the community](https://ausdigital.slack.com/messa
 
 ### Query API
 
-The reference implementation complies with the [DCL-SPEC Discovery API](http://ausdigital-dcl.readthedocs.io/en/latest/discovery_api/).
+The reference implementation complies with the [DCL-SPEC Discovery API](http://ausdigital.org/specs/ausdigital-dcl/1.0#discovery/).
 
-The [normative example](http://ausdigital-dcl.readthedocs.io/en/latest/normative_examples/) in the DCL-SPEC uses the dcl.testpoint.io free service to demonstrate the Query API in detail. Basically, this means a well formed NAPTR type DNS query to the *.dcl.testpoint.io domain will return a CNAME of a service metadata publisher.
+The [normative example](http://ausdigital.org/specs/ausdigital-dcl/1.0#normative_examples/) in the DCL-SPEC uses the dcl.testpoint.io free service to demonstrate the Query API in detail. Basically, this means a well formed NAPTR type DNS query to the *.dcl.testpoint.io domain will return a CNAME of a service metadata publisher.
 
 
 ### Management API
