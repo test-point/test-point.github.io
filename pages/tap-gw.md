@@ -11,6 +11,6 @@ menuOrder: 5
 ---
 ### Work In Progress
 
-[AusDigital](http://ausdigital.org) [TAP-GW specification](http://ausdigital.org/specs/ausdigital-tap-gw/1.0/en/latest/) is under development at [GitHub](https://github.com/ausdigital/ausdigital-tap/). This describes how business messages are securely delivered to a participant endpoints in a peer-to-peer way.
+[AusDigital](http://ausdigital.org) [TAP-GW specification](http://ausdigital.org/specs/ausdigital-tap-gw/1.0/) is under development at [GitHub](https://github.com/ausdigital/ausdigital-tap/). This describes how business messages are securely delivered to a participant endpoints in a peer-to-peer way.
 
 A testpoint TAP-GW service is under construction. We've done all the heavy lifting by building all the other services upon which the TAP-GW depends.  So we won't be long.
