@@ -47,11 +47,14 @@ After reading our ausdigital/nry specification you can try this demo service to 
 * currently we have periodical (hourly) notarization, but it may be changed any time
 * currently we have Blockchain (main bitcoin testnet chain) notarization supported, but it's manual operation - to avoid spamming testnet. So you can safely assume any archive at https://nry.testpoint.io/archives/ available in bitcoin OP_RETURN data as `NRY /ipfs/{final_qmhash}` (NRY prefix may change).
 
-### Example of list documents request
+### Examples and demos
 
 <pre>curl --header 'Accept: application/json; indent=4' \
     'https://nry.testpoint.io/public/'
 </pre>
+
+[Demo clients](https://github.com/test-point/testpoint-nry)
+[How to validate the HOC Archive manually](https://github.com/test-point/testpoint-nry/tree/master/client-sh#hoc-archive-validation-example)
 
 ### Help and support
 
