@@ -13,24 +13,36 @@ menuOrder: 5
 
 [AusDigital](http://ausdigital.org) [TAP-GW specification](http://ausdigital.org/specs/ausdigital-tap-gw/1.0/) is under development at [GitHub](https://github.com/ausdigital/ausdigital-tap/). This describes how business messages are securely delivered to a participant endpoints in a peer-to-peer way.
 
-With tap-gw.testpoint.io you are able:
-* create tap-gw endpoints for some participant_ids
-* query all messages, received by your endpoints
+With tap-gw.testpoint.io you can:
+* behave as a ledger or as a independent eInvoicing participant/business
+* create tap-gw endpoints for your customers or for yourself
+* query all messages received by your endpoints
 * send messages to any endpoint which you are aware of
 
 This service is shared between the developers, so access control works this way:
-* you claim some ABN on idp.testpoint.io (let's call it main participant identifier)
-* you imagine some more abn which will be your virtual customers
-* and you create endpoints for these virtual customers ABNs.
-* any user have access only to endpoints which were created by himself. Virtual customers won't have access even to their own endpoints (but they can download documents directly from NRY when you tell them DocId from received message).
+* ledger claims some ABN on idp.testpoint.io (let's call it main/ledger participant identifier)
+* ledger picks up some more ABN/participant IDs which will be his virtual customers
+* ledger creates endpoints for these virtual customers, providing corresponding participant ID
+* any ledger have access only to endpoints which were created by himself. Virtual customers will not have access even to endpoints created for them (but they can download documents directly from NRY by DocId, and DocId is known to ledger from messages list).
 
-The api documentation is coming.
-
-tap-gw.testpoint.io uses nry.testpoint.io installation, so sent messages may be downloaded directly from it with JWT of:
+tap-gw.testpoint.io uses nry.testpoint.io installation, so sent messages may be downloaded directly from it with JWT belonging:
 * participant_id, passed on endpoint creation as a parameter
-* your participant_id, passed to endpoint creation endpoint by your JWT
+* ledger participant_id, passed to endpoint creation endpoint by your JWT
 
 This service requires valid JWT token from idp.testpoint.io, which is trivial to get.
+
+### API documentation and clients
+
+API doc: TODO
+
+Request example:
+
+```
+export AUTH_JWT="{YOUR-TOKEN-HERE}"
+curl -H "Accept: application/json; indent=4"
+     -H "Authorization: JWT ${AUTH_JWT}" \
+    http://tap-gw.testpoint.io/api/endpoints/
+```
 
 ### Help and support
 
