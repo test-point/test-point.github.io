@@ -33,9 +33,9 @@ This service requires valid JWT token from idp.testpoint.io, which is trivial to
 
 ### API documentation and clients
 
-API doc: TODO
+API doc: https://tap-gw.testpoint.io/api/docs/
 
-Request example:
+Quick request example:
 
 ```
 export AUTH_JWT="{YOUR-TOKEN-HERE}"
@@ -43,6 +43,8 @@ curl -H "Accept: application/json; indent=4"
      -H "Authorization: JWT ${AUTH_JWT}" \
     http://tap-gw.testpoint.io/api/endpoints/
 ```
+
+More detailed bash examples: https://github.com/test-point/testpoint-tap-gw/tree/master/client-sh (check out readme in this repo about usage)
 
 ### Help and support
 
