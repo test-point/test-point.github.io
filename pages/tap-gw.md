@@ -13,38 +13,38 @@ menuOrder: 5
 
 [AusDigital](http://ausdigital.org) [TAP-GW specification](http://ausdigital.org/specs/ausdigital-tap-gw/1.0/) is under development at [GitHub](https://github.com/ausdigital/ausdigital-tap/). This describes how business messages are securely delivered to a participant endpoints in a peer-to-peer way.
 
-With tap-gw.testpoint.io you can:
+With [tap-gw.testpoint.io](tap-gw.testpoint.io) you can:
 * behave as a ledger or as a independent eInvoicing participant/business
 * create tap-gw endpoints for your customers or for yourself
 * query all messages received by your endpoints
 * send messages to any endpoint which you are aware of
 
 This service is shared between the developers, so access control works this way:
-* ledger claims some ABN on idp.testpoint.io (let's call it main/ledger participant identifier)
+* ledger claims some ABN on [idp.testpoint.io](idp.testpoint.io) (let's call it main/ledger participant identifier)
 * ledger picks up some more ABN/participant IDs which will be his virtual customers
 * ledger creates endpoints for these virtual customers, providing corresponding participant ID
 * any ledger have access only to endpoints which were created by himself. Virtual customers will not have access even to endpoints created for them (but they can download documents directly from NRY by DocId, and DocId is known to ledger from messages list).
 
-tap-gw.testpoint.io uses nry.testpoint.io installation, so sent messages may be downloaded directly from it with JWT belonging:
+tap-gw.testpoint.io uses [nry.testpoint.io](nry.testpoint.io) installation, so sent messages may be downloaded directly from it with JWT belonging to:
 * participant_id, passed on endpoint creation as a parameter
 * ledger participant_id, passed to endpoint creation endpoint by your JWT
 
-This service requires valid JWT token from idp.testpoint.io, which is trivial to get.
+This service requires valid JWT token from [idp.testpoint.io](idp.testpoint.io), which is trivial to get.
 
 ### API documentation and clients
 
-API doc: https://tap-gw.testpoint.io/api/docs/
+[API documentation in ReadTheDocs format](https://tap-gw.testpoint.io/api/docs/)
 
-Quick request example:
+Request quick example:
 
 ```
 export AUTH_JWT="{YOUR-TOKEN-HERE}"
 curl -H "Accept: application/json; indent=4"
      -H "Authorization: JWT ${AUTH_JWT}" \
-    http://tap-gw.testpoint.io/api/endpoints/
+    https://tap-gw.testpoint.io/api/endpoints/
 ```
 
-More detailed bash examples: https://github.com/test-point/testpoint-tap-gw/tree/master/client-sh (check out readme in this repo about usage)
+[More detailed bash examples](https://github.com/test-point/testpoint-tap-gw/tree/master/client-sh) (check out readme in this repo about usage)
 
 ### Help and support
 
