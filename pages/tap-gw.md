@@ -46,6 +46,10 @@ curl -H "Accept: application/json; indent=4"
 
 [More detailed bash examples](https://github.com/test-point/testpoint-tap-gw/tree/master/client-sh) (check out readme in this repo about usage)
 
+[Use cases for message creation](https://tap-gw.testpoint.io/api/docs/testcases.html#create-and-sign-a-message)
+
+[Test TAP message creation script](https://github.com/test-point/testpoint-tap/tree/master/tap-message-composer)
+
 ### Help and support
 
 The service is currently in BETA, so some problems are expected. Don't hesitate to contact us by [Slack channel](https://ausdigital.slack.com/messages/spec-tap/) of you have any problems or questions.
