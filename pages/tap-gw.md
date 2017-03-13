@@ -11,7 +11,7 @@ menuOrder: 5
 ---
 ### Resources
 
-[AusDigital](http://ausdigital.org) [TAP-GW specification](http://ausdigital.org/specs/ausdigital-tap-gw/1.0/) is under development at [GitHub](https://github.com/ausdigital/ausdigital-tap/). This describes how business messages are securely delivered to a participant endpoints in a peer-to-peer way.
+[AusDigital](http://ausdigital.org) [TAP-GW specification](http://ausdigital.org/specs/ausdigital-tap-gw/1.0/) is under development at [GitHub](https://github.com/ausdigital/ausdigital-tap-gw/). This describes how business messages are securely delivered to a participant endpoints in a peer-to-peer way.
 
 With [tap-gw.testpoint.io](https://tap-gw.testpoint.io) you can:
 * behave as a ledger or as a independent eInvoicing participant/business
