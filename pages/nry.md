@@ -19,7 +19,7 @@ We will release a free nry.testpoint.io service when the spec is more developed.
 
 After reading the ausdigital [NRY](http://ausdigital.org/ausdigital-nry/) specification you can try this demo service to do some notarizations and to browse notarized archives.
 
-[API Documentation](https://app.swaggerhub.com/api/ausdigital/ausdigital-nry/1.0)
+[API Documentation](http://ausdigital.org/specs/ausdigital-nry/1.0/api)
 
 [Identity Provider](https://idp.testpoint.io/)
 

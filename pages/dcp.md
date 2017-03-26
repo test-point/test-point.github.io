@@ -11,7 +11,8 @@ menuOrder: 3
 ---
 ### API
 
-TestPoint DCP implements the [AusDigital](http://ausdigital.org/ausdigital-dcp/) Digital Capability Locator specifications. The API is directly available to developers, and also backs the [SwaggerHub specifications](https://swaggerhub.com/api/ausdigital/ausdigital-dcp/1.0). Support is available through the [GitHub site](https://github.com/ausdigital/ausdigital-dcp).
+TestPoint DCP implements the [AusDigital](http://ausdigital.org/ausdigital-dcp/) Digital Capability Locator specifications. 
+The API is directly available to developers, and also backs the [SwaggerHub specifications](http://ausdigital.org/specs/ausdigital-dcp/1.0/api). Support is available through the [GitHub site](https://github.com/ausdigital/ausdigital-dcp).
 
 The OASIS-compliant DCP is available at https://dcp.testpoint.io/
 
