@@ -20,6 +20,8 @@ In accordance with the validation [API specification](http://ausdigital.org/spec
 
 A Synthtic Ledger Service allows to confirm that you can send an valid invoice to an ABN to another party which is on the network (ie has a DCP entry). 
 
+Please note that the current implementation doesn't include validation of Document Type ID, Processes and documents itself yet.
+
 If you already have synthetic user credntials, follwo the instructions from the step 5.
 Instructions:
 
