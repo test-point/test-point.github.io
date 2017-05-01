@@ -32,7 +32,7 @@ Instructions:
 5.  Login again using synthetic user credentials you made in the step 3.
 6.  Select Virtual Ledger as a client and click on "Issue new token for this client"
 7.  Make note of the JWT token (copy/paste), which you can use to access Virtual Ledger as this user
-8.  Go to [Ledger A](http://ledger-a.testpoint.io/login) or [Ledger B](http://ledger-b.testpoint.io/login) login pages
+8.  Go to [Ledger](http://ledger.testpoint.io/login)login page
 9.  Provide the JWT token from the step 7
 10. Choose ABN, Document Type ID and Endpoint and provide your document in JSON format.
 11. Click "Confirm" to send a message to the enpoint.
