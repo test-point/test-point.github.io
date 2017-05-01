@@ -22,7 +22,7 @@ A Synthtic Ledger Service allows to confirm that you can send an valid invoice t
 
 Please note that the current implementation doesn't include validation of Document Type ID, Processes and documents itself yet.
 
-If you already have synthetic user credntials, follwo the instructions from the step 5.
+If you already have synthetic user credntials, follow the instructions from the step 5.
 Instructions:
 
 1.  Navigate to the [login page](https://idp.testpoint.io/login/)
