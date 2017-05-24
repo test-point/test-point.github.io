@@ -52,7 +52,7 @@ img{
   padding: 90px $mobile-padding;
   color: #000;
 
-  h3, p{
+  h3, h4, p{
     max-width: 850px;
   }
 
@@ -167,6 +167,12 @@ img{
         margin: 0 0 8px 0;
         color: #173c85;
         font-size: 25px;
+      }
+
+      h4{
+        margin: 0 0 8px 0;
+        color: #173c85;
+        font-size: 16px;
       }
 
       p{
