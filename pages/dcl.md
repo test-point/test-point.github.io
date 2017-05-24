@@ -75,6 +75,8 @@ Host supports TLS and JWT auth. Auth is method-agnostic, so regardless of used m
 
 [https://dbc-dcl.testpoint.io/admin/](https://dbc-dcl.testpoint.io/admin/)
 
+Access to an admin panel is provided by request, as dbc-dcl.testpoint.io is a shared instance. But a private instance can be installed from a source code.
+
 Admin panel may be used for party management, status change and audit records review.
 
 Using the [User-Party access](https://dbc-dcl.testpoint.io/admin/accreditations/userpartyaccess/) interface dcl users can get permission to access specific parties.
