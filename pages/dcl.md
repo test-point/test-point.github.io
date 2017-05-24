@@ -51,15 +51,18 @@ In addition to AusDigital DCL 1.0 spec with a minimum required set of functions 
 
 The swagger document was developed based on ADBC DCL Implementation Guide (v2.0.0 available [here](http://ausdigital.org/specs/ausdigital-dcl/1.0/Attachment_5c_Digital_Capability_Locator_Implementation_Guide_v2.0.0.pdf)) and available on [swaggerhub.com](https://app.swaggerhub.com/apis/ADBC/DCL-interface-spec/2.0.0)
 
-Host:
+
+#### Host
 
 [https://dbc-dcl.testpoint.io/](https://dbc-dcl.testpoint.io/)
 
-Authentification:
+
+#### Authentification
 
 Host supports TLS and JWT auth. Auth is method-agnostic, so regardless of used method a user may be granted some access to system objects.
 
-Resources:
+
+#### Resources
 
 [Server configuration for TLS auth](https://github.com/test-point/testpoint-dcl/tree/master/client-py-tls)
 
@@ -67,7 +70,8 @@ Resources:
 
 [Feature files](https://github.com/test-point/testpoint-dcl/tree/master/tests/bdd-remote)
 
-Admin Panel:
+
+#### Admin Panel
 
 [https://dbc-dcl.testpoint.io/admin/](https://dbc-dcl.testpoint.io/admin/)
 
