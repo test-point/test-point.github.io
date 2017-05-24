@@ -47,7 +47,7 @@ Using the credentials you created above, you can manage the DCL entry for that A
 
 ### ADBC DCL Interface implementation
 
-In addition to AusDigital DCL 1.0 spec with a minimum required set of functions Testpoint.io provides an implementation of ADBC DCL Interface Specification 2.0.0(dbc-dcl/2.0.0) - [dbc-dcl.testpoint.io](https://dbc-dcl.testpoint.io).
+In addition to AusDigital DCL 1.0 spec with a minimum required set of functions Testpoint.io provides an implementation of ADBC DCL Interface Specification 2.0.0(dbc-dcl/2) - [dbc-dcl.testpoint.io](https://dbc-dcl.testpoint.io).
 
 The swagger document was developed based on ADBC DCL Implementation Guide (v2.0.0 available [here](http://ausdigital.org/specs/ausdigital-dcl/1.0/Attachment_5c_Digital_Capability_Locator_Implementation_Guide_v2.0.0.pdf)) and available on [swaggerhub.com](https://app.swaggerhub.com/apis/ADBC/DCL-interface-spec/2.0.0)
 
