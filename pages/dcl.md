@@ -53,11 +53,11 @@ The swagger document was developed based on ADBC DCL Implementation Guide (v2.0.
 
 Host:
 
-https://dbc-dcl.testpoint.io/
+[https://dbc-dcl.testpoint.io/](https://dbc-dcl.testpoint.io/)
 
 Authentification:
 
-Host supports TLS and JWT auth. Auth is method-agnostic, so regardless of used method user may be granted some access to system objects.
+Host supports TLS and JWT auth. Auth is method-agnostic, so regardless of used method a user may be granted some access to system objects.
 
 Resources:
 
@@ -69,12 +69,12 @@ Resources:
 
 Admin Panel:
 
-https://dbc-dcl.testpoint.io/admin/
+[https://dbc-dcl.testpoint.io/admin/](https://dbc-dcl.testpoint.io/admin/)
 
 Admin panel may be used for party management, status change and audit records review.
 
 Using the [User-Party access](https://dbc-dcl.testpoint.io/admin/accreditations/userpartyaccess/) interface dcl users can get permission to access specific parties.
 
-A dcl user record is created, once a user authenticates in DCL for the first time. An endpoint https://dbc-dcl.testpoint.io/api/dbc/v0/demo_auth/ can be used to validate a current authentication status and trigger a dcl user creation process.
+A dcl user record is created, once a user authenticates in DCL for the first time. A [demo-auth endpoint](https://dbc-dcl.testpoint.io/api/dbc/v0/demo_auth/) can be used to validate a current authentication status and trigger a dcl user creation process.
 
 Only when a dcl user record was added, admin user can set permissions for this user.
