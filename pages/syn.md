@@ -1,16 +1,18 @@
 ---
-title: A Testpoint.io UBL Syntax 2.0 test service
-description: The AusDigital UBL Syntax 2.0 Specification reference implementation and test suite.
+title: A Testpoint.io UBL JSON Syntax 1.0 test service
+description: The AusDigital UBL JSON Syntax 1.0 Specification reference implementation and test suite.
 diagram: /images/diagrams/test-tdr.png
 diagramMobile: /images/diagrams/test-tdr-mobile.png
-contentTitle: UBL Syntax 2.0
+contentTitle: UBL JSON Syntax 1.0
 permalink: /syn
 menuTitle: Test SYN
 menuOrder: 6
 ---
 ### Transformation API
 
-In accordance with the ausdigital [UBL Syntax 2.0 Specification](http://ausdigital.org/specs/ausdigital-syn/2.0), testpoint.io offers free transformation APIs for lossless bi-directional transformation between international namespace qualified UBL XML and a simple single root JSON representation.  We expect that the majority of national invoices will use the JSON representation but it is useful to be able to transform to/from UBL for international interoperability with other jurisdictions (mostly the EU) that also use UBL.
+In accordance with the ausdigital [UBL JSON Syntax 1.0 Specification](http://ausdigital.org/specs/ausdigital-syn-json/1.0), testpoint.io offers free transformation APIs 
+for lossless bi-directional transformation between international namespace qualified UBL XML and a simple single root JSON representation.  
+We expect that the majority of national invoices will use the JSON representation but it is useful to be able to transform to/from UBL for international interoperability with other jurisdictions (mostly the EU) that also use UBL.
 
 Please POST your UBL XML to:
 
@@ -20,10 +22,11 @@ or your UBL JSON to:
 
 * json.testpoint.io/api/v0/json2ubl
 
-In accordance with the ausdigital [UBL Syntax 2.0 API](http://ausdigital.org/specs/ausdigital-syn/2.0/api).  No authentication is required.
+In accordance with the ausdigital [UBL JSON Syntax 1.0 API](http://swagger.testpoint.io/?url=http://ausdigital.org/specs/ausdigital-syn-json/1.0/swagger.json).  No authentication is required.
 
 ### Transformation Docker Container
 
-As an implementer, you may use the SaaS API for transformations as needed. However, you may also wish to perform transformations locally, thereby avoiding the need to send un-encrypted invoice data outside of your controlled network. Testpoint is pleased to offer a free containerised version of the transformation API.
+As an implementer, you may use the SaaS API for transformations as needed. However, you may also wish to perform transformations locally, 
+thereby avoiding the need to send un-encrypted invoice data outside of your controlled network. Testpoint is pleased to offer a free containerised version of the transformation API.
 
 More to come on this....
