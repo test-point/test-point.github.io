@@ -33,7 +33,7 @@ This service requires valid JWT token from [idp.testpoint.io](https://idp.testpo
 
 ### API documentation and clients
 
-[API documentation in ReadTheDocs format](https://tap-gw.testpoint.io/api/docs/)
+[API documentation in Swagger format](http://swagger.testpoint.io/?url=http://ausdigital.org/specs/ausdigital-tap-gw/1.0/swagger.yaml){:target="_blank"}
 
 Request quick example:
 
